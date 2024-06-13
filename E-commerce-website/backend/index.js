@@ -12,7 +12,7 @@ app.use(cors());
 
 /*Database connection*/
 mongoose.connect(
-  "mongodb+srv://ecommerceMern:user123@cluster0.bdm1o1w.mongodb.net/ecommerce-mern?retryWrites=true&w=majority&appName=Cluster0",
+  "mongodb+srv://pasiya077:user1234@cluster0.gyle4tl.mongodb.net/ecommerce-mern?retryWrites=true&w=majority&appName=Cluster0",
 );
 
 /*API creation*/
