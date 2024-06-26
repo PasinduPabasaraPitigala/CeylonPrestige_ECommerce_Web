@@ -64,8 +64,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#f0f2f5",
-        secondary: "#004953",
-        tertiary: "#00897B",
+        secondary: "#000000  ",
+        tertiary: "#592720 ",
         slate: {
           10: "#f1f3f4",
         },
@@ -82,7 +82,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        wallpaper: "url('/src/assets/images/newWallpaper.png')",
+        wallpaper: "url('/src/assets/images/Wallpaper.jpg')",
       },
       screens: {
         xs: "400px",
