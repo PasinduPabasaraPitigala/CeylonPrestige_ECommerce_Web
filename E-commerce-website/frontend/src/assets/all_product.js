@@ -11,7 +11,7 @@ export let all_product = [
   {
     id: 1,
     name: "The ordinary Niacinamide 10% + Zinc 1% ",
-    category: "skin",
+    category: "men",
     image: p1_image,
     new_price: 5764.0,
     old_price: 6550.0,

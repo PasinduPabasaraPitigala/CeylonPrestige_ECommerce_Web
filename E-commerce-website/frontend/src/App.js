@@ -16,12 +16,11 @@ function App() {
         <Header />
         <Routes>
           <Route path={"/"} element={<Home />} />
-          <Route path="skin" element={<Category category={'skin'} />} />
-          <Route path="hair" element={<Category category={'hair'} />} />
-          <Route path="makeup" element={<Category category={'makeup'} />} />
-          <Route path="bags" element={<Category category={'bags'} />} />
-          <Route path="earring" element={<Category category={'earring'} />} />
-          <Route path="shoes" element={<Category category={'shoes'} />} />
+          <Route path="men" element={<Category category={'men'} />} />
+          <Route path="women" element={<Category category={'women'} />} />
+          <Route path="kids" element={<Category category={'kids'} />} />
+          <Route path="personal" element={<Category category={'personal'} />} />
+          <Route path="beauty" element={<Category category={'beauty'} />} />
           <Route path={"/customerCare"} element={<Category />} />
           <Route path={"/product"} element={<Product />}>
             <Route path=":productId" element={<Product />} />

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/images/the (1).png";
+import logo from "../assets/images/ceylonLogo.png";
 import user from "../assets/images/icons8-login-67.png";
 import Navbar from "./Navbar";
 import { useContext, useState } from "react";
@@ -22,7 +22,7 @@ const Header = () => {
         {/*logo*/}
         <div>
           <Link>
-            <img src={logo} alt={""} height={150} width={150} />
+            <img src={logo} alt={""} height={120} width={120} />
           </Link>
         </div>
 

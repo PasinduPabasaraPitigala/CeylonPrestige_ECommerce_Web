@@ -58,36 +58,54 @@ const Navbar = ({ containerStyles }) => {
       </NavLink>*/}
 
       <NavLink
-        to={"/skin"}
+        to={"/men"}
         className={({ isActive }) => (isActive ? "active_link" : "")}
       >
         <div className={"flexCenter gap-x-1"}>
-          <MdFace />
-          Skin Care
+
+          MEN
         </div>
       </NavLink>
       <NavLink
-        to={"/hair"}
+        to={"/women"}
         className={({ isActive }) => (isActive ? "active_link" : "")}
       >
         <div className={"flexCenter gap-x-1"}>
-          <MdFace2 />
-          Hair Care
+
+          WOMEN
         </div>
       </NavLink>
 
       <NavLink
-        to={"/makeup"}
+        to={"/kids"}
         className={({ isActive }) => (isActive ? "active_link" : "")}
       >
         <div className={"flexCenter gap-x-1"}>
-          <MdBrush />
-          Beauty Care
+            KIDS
         </div>
       </NavLink>
 
-      <NavLink
-        to={"/bags"}
+        <NavLink
+            to={"/personal"}
+            className={({ isActive }) => (isActive ? "active_link" : "")}
+        >
+            <div className={"flexCenter gap-x-1"}>
+                PERSONAL CARE
+            </div>
+        </NavLink>
+        <NavLink
+            to={"/beauty"}
+            className={({ isActive }) => (isActive ? "active_link" : "")}
+        >
+            <div className={"flexCenter gap-x-1"}>
+                BEAUTY CARE
+            </div>
+        </NavLink>
+
+
+
+        {/* <NavLink
+        to={"/"}
         className={({ isActive }) => (isActive ? "active_link" : "")}
       >
         <div className={"flexCenter gap-x-1"}>
@@ -115,7 +133,7 @@ const Navbar = ({ containerStyles }) => {
           Heels/Shoes
         </div>
       </NavLink>
-
+*/}
       {/*<NavLink
         to={"/customerCare"}
         className={({ isActive }) => (isActive ? "active_link" : "")}
