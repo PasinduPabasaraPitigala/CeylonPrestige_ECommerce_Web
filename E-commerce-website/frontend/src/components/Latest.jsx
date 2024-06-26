@@ -3,7 +3,7 @@ import Item from "./Item";
 
 const Latest = () => {
     return(
-        <section className={'bg-teal-50 '}>
+        <section className={'bg-white'}>
             <div className={'max_padd_container py-12 xl:py-28 xl:w-[88%]'}>
                 <h3 className={'h3 text-start mr-1 font-bold'}>LATEST</h3>
              <hr className={'h-[3px]  max-auto bg-gradient-to-l from-transparent  to-transparent md-16'}/>
