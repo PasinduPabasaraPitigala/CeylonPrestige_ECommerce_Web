@@ -68,8 +68,10 @@ const Header = () => {
               </span>
             </NavLink>
 
-            <NavLink to={"login"} className={"  flexCenter gap-x-2 medium-16"}>
-              <img src={user} alt={"usericon"} height={19} width={19} />
+            <NavLink to={"login"} className={
+              "btn_secondary_rounded flexCenter hover:text-black gap-x-2 medium-16 hidden"
+            }>
+             Login
             </NavLink>
 
             <NavLink
